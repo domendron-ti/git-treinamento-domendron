@@ -1,0 +1,500 @@
+  142  cd bin
+  143  ls
+  144  clear
+  145  ls -l
+  146  ./httpd &
+  147  ./apachectl 
+  148  ss -atun | grep 80
+  149  ss -atun | grep 22
+  150  ss -atun | grep 80
+  151  clear
+  152  apt install proftpd
+  153  clear
+  154  service protfpd status
+  155  cd /etc
+  156  ls
+  157  cd proftpd/
+  158  ls
+  159  ss -atun | grep 80
+  160  systemctl proftpd.conf status
+  161  systemctl proftpd.conf
+  162  systemctl status proftpd.conf
+  163  systemctl proftpd.conf
+  164  cd /
+  165  clear
+  166  apt remove proftpd
+  167  apt purge proftpd
+  168  apt autoremove
+  169  clear
+  170  apt install vsftpd
+  171  clear
+  172  vim /etc/vsftpd.conf 
+  173  service vftpd restart
+  174  ls
+  175  cd /etc/
+  176  ls
+  177  cd /bin
+  178  ls
+  179  ls -l | grep vftpd
+  180  ls -l | grep vftp
+  181  ls -l | more
+  182  vim vsftpdwho 
+  183  cd /usr/
+  184  ls
+  185  cd bin
+  186  ls
+  187  ls -l
+  188  ls -l | more
+  189  cd /etc/
+  190  ls
+  191  systemctl status
+  192  clear
+  193  systemctl enable vsftpd
+  194   adduser usuario-ftp
+  195  systemctl status vftpd
+  196  systemctl status vsftpd
+  197  systemctl stop vftpd
+  198  systemctl stop vftpd
+  199   adduser remove usuario-ftp
+  200   adduser -r usuario-ftp
+  201  systemctl disable vsftpd
+  202  apt purge vsftpd
+  203  apt 
+  204  apt purge vsftpd
+  205  clear
+  206  cd /var/
+  207  ls
+  208  cd /usr/local/apache2/
+  209  ls
+  210  ls
+  211  cd /
+  212  ls
+  213  cd home/
+  214  ls
+  215  cd usuario
+  216  ls
+  217  cd ..
+  218  cd 
+  219  pwd
+  220  ls
+  221  ls -la
+  222  cd ..
+  223  ls
+  224  cd home/
+  225  ls -la
+  226  cd usuario-ftp/
+  227  ls
+  228  ls -la
+  229  cd ..
+  230  ls
+  231  cd   usuario
+  232  ls
+  233  ls -la
+  234  exit
+  235  reboot
+  236  shutdown -h now
+  237  clear
+  238  service apache2 start
+  239  ss -atun | grep 80
+  240  ss -atun | grep 20
+  241  cd /usr/local/apache2/
+  242  cd bin
+  243  ./apachectl 
+  244  ss -atun | grep 80
+  245  ip add
+  246  systemctl enable apachectl 
+  247  clear
+  248  clear
+  249  lsss
+  250  ls
+  251  cd ..
+  252  ls
+  253  exit
+  254  shutdown -h now
+  255  clear
+  256  ls -la
+  257  nano .bashrc
+  258  cat .bashrc > bashrc.root.txt
+  259  chmod 777 bashrc.root.txt 
+  260  ls
+  261  git
+  262  apt update
+  263  clear
+  264  apt upgrade
+  265  apt install git
+  266  git config --global color.ui true
+  267  git help help
+  268  git input --help
+  269  git init --help
+  270  ls
+  271  mkdir git_domendron
+  272  ls
+  273  mv bashrc.root.txt git_domendron/
+  274  ls
+  275  cd git_domendron/
+  276  ls
+  277  git status
+  278  git init
+  279  clear
+  280  git init
+  281  ls -la
+  282  clear
+  283  git verson
+  284  git version
+  285  git clone git://github.com/domendron.eti/git-treinamento-domendron.git
+  286  git status
+  287  cd ..
+  288  ks
+  289  ls
+  290  ls
+  291  ls -la
+  292  clear
+  293  ls
+  294  cd git_domendron/
+  295  ls
+  296  git clone git://github.com/domendron.eti/git-treinamento-domendron.git
+  297  cd .
+  298  cd ..
+  299  ls
+  300  mkdir git-treinamento-domendron
+  301  ls
+  302  cd git-treinamento-domendron/
+  303  cp /root/git_domendron/bashrc.root.txt .
+  304  ls
+  305  clear
+  306  git init
+  307  git config --global init.defaultBranch domendron-ti
+  308  git init
+  309  git config --global init.defaultBranch domendron-ti/git-treinamento-domendron
+  310  git init
+  311  git status
+  312  ls
+  313  git add bashrc.root.txt 
+  314  git add .
+  315  git commit -m bashrc.root.txt 
+  316  vlrst
+  317  clear
+  318  ls
+  319  clear
+  320  apt install git
+  321  git --version
+  322  clear
+  323  cd ..
+  324  ls
+  325  ls -a
+  326  clear
+  327  ls
+  328  shutdown -r now
+  329  clear
+  330  shutdown -r now
+  331  nano .bashrc
+  332  exit
+  333  nano .bashrc
+  334  exit
+  335  ls
+  336  cd git_domendron/
+  337  ls
+  338  mv bashrc.root.txt ..
+  339  ls
+  340  cd ..
+  341  ls
+  342  rm -Rfv git_domendron/
+  343  ls
+  344  git status
+  345  clear
+  346  ls
+  347  ls git-treinamento-domendron/
+  348  clear
+  349  ls -la
+  350  cat .gitconfig 
+  351  git status
+  352  git clone https://github.com/domendron-ti/git-treinamento-domendron
+  353  git clone https://github.com/domendron-ti/git-treinamento-domendron
+  354  clear
+  355  clear
+  356  ls
+  357  rm -Rfv git-treinamento-domendron/
+  358  celar
+  359  clear
+  360  ls
+  361  git clone https://github.com/domendron-ti/git-treinamento-domendron
+  362  cd git-treinamento-domendron/
+  363  git status
+  364  tree clean
+  365  clear
+  366  ls
+  367  cd ..
+  368  ls
+  369  cp bashrc.root.txt git-treinamento-domendron/
+  370  cd ..
+  371  ls
+  372  pwd
+  373  cd root/
+  374  ls
+  375  cd git-treinamento-domendron/
+  376  ls
+  377  git status
+  378  clear
+  379  ls
+  380  git status
+  381  git add bashrc.root.txt 
+  382  clear
+  383  ls
+  384  git comment -m "Modelo de Prompt Colorido"
+  385  git commit -m "Modelo de Prompt Colorido"
+  386  ls -la
+  387  git config --global user.name "domendron-ti'
+  388  git config --global user.name domendron-ti
+  389  git config --global user.email domendron.eti@gmail.com
+  390  git config --global color.ui true
+  391  ls -la
+  392  cat .git
+  393  cd .git
+  394  ls
+  395  cat config
+  396  git status
+  397  git status
+  398  cd ..
+  399  git status
+  400  clear
+  401  git status
+  402  git push
+  403  clear
+  404  ls
+  405  git status
+  406  clear
+  407  touch teste01.txt
+  408  touch teste02.txt
+  409  nano teste01.txt
+  410  nano teste02.txt
+  411  ls
+  412  nano teste02.txt
+  413  clear
+  414  git add teste0*.*
+  415  git status
+  416  git commit -m "Asquivos de testes"
+  417  git push origin master
+  418  git push origin
+  419  git config--global credential.helper cache
+  420  git config --global credential.helper cache
+  421  git push
+  422  git push teste0*.*
+  423  git push teste01.txt
+  424  git push teste02.txt
+  425  clear
+  426  ls
+  427  ls -la
+  428  git status
+  429  git push origin master
+  430  git status
+  431  git push -f origin master
+  432  git status
+  433  cd ..
+  434  ls
+  435  git status
+  436  cd git-treinamento-domendron/
+  437  ls
+  438  chmod 777 teste0*.*
+  439  ls
+  440  git push origin master
+  441  git push teste01.txt
+  442  clear
+  443  git add teste01.txt
+  444  git add teste02.txt
+  445  git status
+  446  git push origin master
+  447  git push teste01.txt 
+  448  ls
+  449  ls -la
+  450  cd ,g
+  451  cd .git/
+  452  ls
+  453  cd branches/
+  454  ls
+  455  ls -la
+  456  cd ..
+  457  ls
+  458  cat config 
+  459  ls
+  460  cd logs
+  461  ls
+  462  cat HEAD 
+  463  ls
+  464  cd refs/
+  465  ls
+  466  cd remotes/
+  467  ls
+  468  cat origin/
+  469  cd origin/
+  470  ls
+  471  cd HEAD 
+  472  cat HEAD 
+  473  clear
+  474  shutdown -h now
+  475  clear
+  476  ls
+  477  cat Lista_Raiz.txt 
+  478  rm Lista_Raiz.txt 
+  479  ls
+  480  cd bashrc.root.txt 
+  481  rm bashrc.root.txt 
+  482  ls
+  483  cat /etc/apt/sources.list
+  484  s
+  485  ls
+  486  history
+  487  history > historico_root.txt
+  488  ls
+  489  mv historico_root.txt git-treinamento-domendron/
+  490  ls
+  491  cd git
+  492  cd git
+  493  cd git-treinamento-domendron/
+  494  dir
+  495  rm teste0*.*
+  496  ls
+  497  chmod 777 historico_root.txt 
+  498  ls
+  499  clear
+  500  shutdown -r now
+  501  ls
+  502  cd git-treinamento-domendron/
+  503  ls
+  504  git status
+  505  git rm 
+  506  git rm teste01.txt
+  507  git status
+  508  git rm teste02.txt
+  509  git status
+  510  git add historico_root.txt 
+  511  git commit -m "Historico do root stronger"
+  512  git push origin master
+  513  git push
+  514  git push --help
+  515  git -q
+  516  git --info-path
+  517  git -C
+  518  clear
+  519  ls
+  520  cat README.md 
+  521  cd ..
+  522  ls
+  523  ls  -ls
+  524  ls -l
+  525  ls -la
+  526  nano .gitconfig 
+  527  clear
+  528  ls
+  529  cd git-treinamento-domendron/
+  530  ls
+  531  git status
+  532  git tree clean
+  533  git tree
+  534  git push historico_root.txt 
+  535  git push historico_root.txt
+  536  git push origen
+  537  git push master
+  538  git push
+  539  git push
+  540  git pull
+  541  git push
+  542  git pull
+  543  git pull
+  544  cd ..
+  545  ls
+  546  apt remove git
+  547  apt puger git
+  548  apt remove puger git
+  549  apt remove git
+  550  apt autoremove
+  551  clear
+  552  ls
+  553  git status
+  554  ls -la
+  555  cd .config/
+  556  ls
+  557  ls
+  558  cd ..
+  559  ls
+  560  cd git
+  561  cd git-treinamento-domendron/
+  562  ls
+  563  nano historico_root.txt 
+  564  cd ..
+  565  apt purge git
+  566  ls -la
+  567  rm .gitconfig 
+  568  ls
+  569  ls la
+  570  la -la
+  571  ls -la
+  572  ls .cache/
+  573  cd .cache/git/credential/
+  574  ls
+  575  ls la
+  576  ls -la
+  577  cd ..
+  578  ls
+  579  ls -la
+  580  cd ..
+  581  ls -la
+  582  cd ..
+  583  rm -Rfv .cache/
+  584  ls
+  585  ls -la
+  586  cat .profile 
+  587  ls
+  588  ls -la
+  589  cat .selected_editor 
+  590  cat .viminfo 
+  591  ls -la
+  592  cd .bash_history 
+  593  cat .bash_history 
+  594  nano .bash_history 
+  595  ls
+  596  ren --help
+  597  mk --help
+  598  mv git-treinamento-domendron bkp-treinamento
+  599  ls
+  600  apt purge git
+  601  clear
+  602  apt clean
+  603  apt-cache search --name-only git
+  604  apt-cache search --names-only git
+  605  apt-cache search --names-only git | grep git
+  606  apt-cache search --names-only git
+  607  apt-cache search --names-only git | more
+  608  clear
+  609  apt install git
+  610  ls /var/cache/apt/archives/
+  611  apt install --download-only git
+  612  ls /var/cache/apt/archives/
+  613  clear
+  614  git status
+  615  ls
+  616  ls -la
+  617  clear
+  618  git config --global user.name "domendron-ti"
+  619  git config --global user.email domendron.eti@gmail.com
+  620  git config --global color.ui true
+  621  git config --global credential.helper cache
+  622  git clone https://github.com/domendron-ti/git-treinamento-domendron
+  623  ls
+  624  git status
+  625  cd git-treinamento-domendron/
+  626  ls
+  627  git status
+  628  cd ..
+  629  ls
+  630  cd bkp-treinamento/
+  631  ls
+  632  rm historico_root.txt /root/git-treinamento-domendron/
+  633  cp historico_root.txt /root/git-treinamento-domendron/
+  634  cp historico_root.txt /root/git-treinamento-domendron
+  635  ls
+  636  cd ..
+  637  cd git-treinamento-domendron/
+  638  ls
+  639  ls
+  640  history 
+  641  history > historico_root.txt
