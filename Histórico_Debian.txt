@@ -1,0 +1,182 @@
+    1  clear
+    2  sudo nano /etc/apt/sources.list
+    3  sudo apt udate
+    4  sudo apt update
+    5  clear
+    6  sudo nano /etc/apt/sources.list
+    7  sudo apt update
+    8  sudo apt list --upgradable
+    9  clear
+   10  sudo apt update
+   11  sudo apt upgrade
+   12  sudo apt dist-upgrade
+   13  uname -a
+   14  sudo reboot
+   15  uname -a
+   16  exit
+   17  sudo su -
+   18  cd Down
+   19  cd Downloads/
+   20  ls
+   21  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+   22  clear
+   23  sudo apt install i3
+   24  clear
+   25  sudo apt install i3blocks 
+   26  clear
+   27  sudo apt-get update
+   28  sudo apt-get upgrade
+   29  clear
+   30  sudo apt-get install i3status i3lock terminator
+   31  clear
+   32  sudo apt-get install compton nitrogen udiskie
+   33  clear
+   34  sudo apt-get install pasystray network-manager-openvpn pavucontrol
+   35  clear
+   36  sudo apt-get install clipit 
+   37  clear
+   38  sudo apt-get install i3-wm 
+   39  clear
+   40  exit
+   41  ls
+   42  c Programas/
+   43  cd Programas/
+   44  clear
+   45  tar xfv tsetup.4.1.0.tar.xz 
+   46  clear
+   47  ls
+   48  rm -Rfv tsetup.4.1.0.tar.xz 
+   49  ls
+   50  dir
+   51  cd Telegram/
+   52  dir
+   53  ls la
+   54  ls -la
+   55  sh Telegram
+   56  ./Telegram 
+   57  cd Downloads/
+   58  dir
+   59  sudo dpkg -i iriunwebcam-2.7.deb 
+   60  sudo apt-get install v4l2loopback-dkms 
+   61  sudo apt --fix-broken install~
+   62  sudo apt --fix-broken install
+   63  clear
+   64  ls
+   65  ls -la
+   66  clear
+   67  ls
+   68  cd Programas/
+   69  ls
+   70  exit
+   71  sudo apt install mesa-utils
+   72  sudo htop
+   73  sudo apt install htop
+   74  sudo htop
+   75  clear
+   76  sudo apt soucer mp
+   77  sudo apt source mp
+   78  sudo apt --help
+   79  sudo apt search mpv
+   80  clear
+   81  ls
+   82  cd Downloads/
+   83  ls
+   84  dpkg -i mpv_0.34.1+fruit.2_amd64.deb 
+   85  sudo dpkg -i mpv_0.34.1+fruit.2_amd64.deb 
+   86  sudo apt --fix-broken install
+   87  sudo apt-get install gpg -y
+   88  sudo su -
+   89  clear
+   90  ls
+   91  clear
+   92  wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/106809903/28d5fe80-f5a6-11e9-9a5b-98fe570594a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220601T122614Z&X-Amz-Expires=300&X-Amz-Signature=119e951eca476f3a129d6b9079ae8eff4c606d94d848e2820f171ce586891df7&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=106809903&response-content-disposition=attachment%3B%20filename%3Dfranz_5.4.0_amd64.deb&response-content-type=application%2Foctet-stream -O franz.deb
+   93  clear
+   94  ls
+   95  cat wget-log 
+   96  clear
+   97  ls
+   98  file wget-log 
+   99  file franz_5.9.2_amd64.deb 
+  100  clear
+  101  sudo apt update
+  102  exir
+  103  exit
+  104  htop
+  105  sudo htop
+  106  sudo apt install module-assistant
+  107  sudo m-a prepare
+  108  udo apt install vim dialog neofetch openssh-server
+  109  sudo apt install vim dialog neofetch openssh-server
+  110  sudo apt install xorg mesa-* fluxbox feh neofetch xcompmgr
+  111  sudo apt install xorg fluxbox feh neofetch xcompmgr
+  112  sudo apt update
+  113  sudo apt install fonts-liberation xdg-utils
+  114  sudo nmtui
+  115  clear
+  116  cd Downloads/
+  117  ls
+  118  rm -Rfv wget-log 
+  119  clcear
+  120  ls
+  121  sudo wget -O kali-archive-keyring_2022.1_all.deb http://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2022.1_all.deb
+  122  clear
+  123  ls
+  124  sudo dpkg -i kali-archive-keyring_2022.1_all.deb
+  125  sudo apt update
+  126  clear
+  127  sudo apt update
+  128  sudo apt list --upgradable
+  129  clear
+  130  ls
+  131  sudo apt update
+  132  sudo apt upgrade
+  133  clear
+  134  exit
+  135  sudo lsusb -v | grep -E 'Bluetooth'
+  136  sudo apt full-upgrade
+  137  sudo apt install bluez-* pulseaudio-module-bluetooth
+  138  sudo apt --fix-broken install
+  139  sudo apt install blueman
+  140  sudo adduser $USER bluetooth
+  141  exit
+  142  sudo apt-get install bluetooth bluez bluez-tools rfkill
+  143  clear
+  144  exit
+  145  cd /boot
+  146  ls
+  147  md5sum /boot/vmlinuz-5.10.0-17-amd64 
+  148  uname -a
+  149  clear
+  150  md5sum /boot/initrd.img-5.10.0-17-amd64 
+  151  ls
+  152  apt policy
+  153  ls /boot/
+  154  clear
+  155  cd /
+  156  clear
+  157  ls
+  158  cd ~/
+  159  ls
+  160  cd Programas/
+  161  sudo apt install v4l2loopback-dkms
+  162  sudo add-apt-repository ppa:obsproject/obs-studio
+  163  sudo apt install obs-studio 
+  164  clear
+  165  exit
+  166  sudo sh -c  "echo deb http://http.kali.org/kali kali-rolling main  >>/etc/apt/sources.list"
+  167  cat /etc/apt/sources.list
+  168  sudo nano /etc/apt/sources.list
+  169  clear
+  170  ssh kretcheu/cgpk@sfo2.tmate.io
+  171  sudo rfkill list
+  172  sudo rfkill unblock bluetooth
+  173  sudo service bluetooth start
+  174  sudo apt-get install blueman -y && blueman-manager
+  175  sudo blueman-manager
+  176  exit
+  177  sudo git clone https://git.savannah.gnu.org/git/parted.git
+  178  sudo apt install git
+  179  clear
+  180  exit
+  181  history >> Histórico_Debian.txt
+sudo apt install v4l2loopback-dkms htop vim dialog neofetch openssh-server fluxbox feh neofetch xcompmgr ttf-mscorefonts-installer p7zip-full
